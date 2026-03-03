@@ -1,0 +1,37 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Large data files (exceed GitHub's 100MB limit)
+backend/data/iot_data.csv
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Byte-compiled files
+*.pyc
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules/
