@@ -1,21 +1,21 @@
-# 🦩 Flamingo AI – IoT Trust & Drift Analytics
+#  Flamingo AI – IoT Trust & Drift Analytics
 
 Flamingo AI is an intelligent **IoT network monitoring platform** that uses machine learning to detect anomalous device behaviour, compute real-time trust scores, and flag behavioral drift — all through an interactive web dashboard.
 
 ---
 
-## 📌 Features
+##  Features
 
-- 🔍 **Trust Score Engine** – Scores each IoT device 0–100 based on how closely its traffic matches learned benign behaviour
-- ⚠️ **Risk Level Classification** – Categorises devices as **Low**, **Medium**, or **High** risk
-- 📡 **Drift Detection** – Identifies devices whose current behaviour deviates significantly from the baseline
-- 🧠 **Rule-Based Explainability** – Human-readable explanations for flagged anomalies (e.g. SYN floods, unusual traffic rates)
-- 📊 **Interactive Dashboard** – Upload your own CSV or analyse sample data via a clean Streamlit UI
-- 📈 **Visual Analytics** – Bar charts for trust score distribution and pie charts for risk level breakdown
+-  **Trust Score Engine** – Scores each IoT device 0–100 based on how closely its traffic matches learned benign behaviour
+-  **Risk Level Classification** – Categorises devices as **Low**, **Medium**, or **High** risk
+-  **Drift Detection** – Identifies devices whose current behaviour deviates significantly from the baseline
+-  **Rule-Based Explainability** – Human-readable explanations for flagged anomalies (e.g. SYN floods, unusual traffic rates)
+-  **Interactive Dashboard** – Upload your own CSV or analyse sample data via a clean Streamlit UI
+-  **Visual Analytics** – Bar charts for trust score distribution and pie charts for risk level breakdown
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 Flamingo AI/
@@ -34,7 +34,7 @@ Flamingo AI/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ### 1. Model Training (`backend/train.py`)
 - Loads IoT network traffic data (`iot_data.csv`)
@@ -59,7 +59,7 @@ Flamingo AI/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9+
@@ -82,7 +82,7 @@ pip install -r requirements.txt
 ```
 
 ### Retrain the Model (optional)
-> ⚠️ Requires `backend/data/iot_data.csv` (not included — see note below)
+>  Requires `backend/data/iot_data.csv` (not included — see note below)
 
 ```bash
 cd backend
@@ -99,7 +99,7 @@ Open your browser at `http://localhost:8501`
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The model was trained on an IoT network traffic dataset (`iot_data.csv`). This file is **not included** in the repository due to its large size (188 MB).
 
@@ -108,7 +108,7 @@ The CSV must include a `label` column where benign traffic is labelled `BenignTr
 
 ---
 
-## 📦 Dependencies
+##  Dependencies
 
 Key packages from `requirements.txt`:
 
@@ -123,7 +123,7 @@ Key packages from `requirements.txt`:
 
 ---
 
-## 🛡️ Risk Level Reference
+##  Risk Level Reference
 
 | Trust Score | Risk Level |
 |---|---|
@@ -133,6 +133,6 @@ Key packages from `requirements.txt`:
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source. Feel free to fork, modify, and contribute!
